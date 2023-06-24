@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>
+    الجودة
+  </title>
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.css" rel="stylesheet" /> -->
+
+
+  <style>
+    .gradient {
+      background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    }
+
+    body::-webkit-scrollbar {
+      display: none;
+    }
+
+    ul {
+      list-style-type: circle;
+      font-family: Arial, sans-serif;
+    }
+
+    li {
+      list-style: none;
+      font-size: large;
+      font-family: Arial, sans-serif;
+
+    }
+
+    .rtl {
+      direction: rtl;
+    }
+  </style>
+
+</head>
+
+<body class="leading-normal tracking-normal text-white gradient   " style="font-family: 'Source Sans Pro', sans-serif;">
+
+  <nav id="header"
+    class=" dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a class="toggleColour text-white gap-5 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+        <svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005">
+          <rect fill="#2a2a31" x="16.539" y="425.626" width="479.767" height="50.502" transform="matrix(1,0,0,1,0,0)" />
+          <path class="plane-take-off"
+            d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z " />
+        </svg>
+        الجودة
+      </a>
+      <div class="flex md:order-2">
+        <a id="navAction" href="https://chatwith.io/s/shrk-ljwd"
+          class="b animate-bounce text-white bg-green-400 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-6 py-1 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+          <img class="w-16 h-10" src="/svg/whatsapp-svgrepo-com.svg" alt="">
+        </a>
+      </div>
+      <div class="toggleColour items-center justify-center text-1xl md:text-3xl w-full md:flex md:w-auto md:order-1"
+        id="navbar-sticky">
+        خدماتنا بجميع مدن الامارات
+      </div>
+    </div>
+  </nav>
+
+
+  <!--Hero-->
+  <div class="pt-24">
+    <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+      <!--Left Col-->
+      <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
+        <h1 class="my-4 text-4xl font-bold leading-tight">
+          Clean HQ ماذا يمكنك أن تستفيد من شركة
+        </h1>
+        <p class="leading-normal text-1xl md:text-2xl mb-8">
+          تشير خدمة التنظيف إلى خدمة احترافية توفر تنظيف وصيانة المساحات السكنية أو التجارية. يمكن أن تشمل خدمات التنظيف
+          مجموعة واسعة من المهام مثل التنظيف بالمكنسة الكهربائية ، والغبار ، والمسح ، وتنظيف النوافذ ، وتعقيم الأسطح.
+          يمكن تقديم هذه الخدمات وفقًا لجدول زمني منتظم ، مثل يوميًا أو أسبوعيًا أو حسب الحاجة. يمكن أن يؤدي استئجار
+          خدمة التنظيف إلى توفير الوقت والطاقة ، مما يسمح للأفراد والشركات بالتركيز على المهام المهمة الأخرى. بالإضافة
+          إلى ذلك ، يمكن أن تحسن البيئة النظيفة الصحة العامة والرفاهية عن طريق الحد من انتشار الجراثيم والمواد المسببة
+          للحساسية. </p>
+      </div>
+      <!--Right Col-->
+      <div class="w-full md:w-3/5 py-6 text-center">
+        <img class="w-full md:w-4/5 z-50" src="/images/hero.png" />
+      </div>
+    </div>
+  </div>
+
+
+
+  <section class="services rtl bg-white border-b py-8">
+    <div class="container max-w-5xl mx-auto m-8">
+      <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+        خدماتنا
+      </h2>
+
+
+
+      <div id="accordion-color" data-accordion="collapse"
+        data-active-classes="bg-blue-100 dark:bg-gray-800 text-blue-600 dark:text-white">
+        <h2 id="accordion-color-heading-1">
+          <button type="button"
+            class="flex items-center focus:outline-none justify-between w-full p-5 py-1 font-medium text-left text-gray-500 border border-b-0 border-gray-200 rounded-t-xl hover:bg-blue-100 "
+            data-accordion-target="#accordion-color-body-1" aria-expanded="false"
+            aria-controls="accordion-color-body-1">
+            <span class="text-1xl md:text-2xl">خدماتنا في دبي :</span>
+            <svg data-accordion-icon class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </h2>
+        <div id="accordion-color-body-1" class="hidden" aria-labelledby="accordion-color-heading-1">
+          <div
+            class="flex flex-col md:flex-row justify-between  py-5  border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+            <p class="flex  mb-2 w-3/4 justify-center md:w-1/2  text-gray-500 dark:text-gray-400 mr-5 ">
+              تفريغ صناديق القمامة بانتظام
+              تنظيف الأرضيات والسجاد بانتظام
+              تنظيف المناطق الرطبة والرطبة بشكل مستمر
+              إغلاق الفتحات والشقوق حول النوافذ والأبواب
+              استخدام مبيدات الحشرات الآمنة
+            </p>
+            <img src="/svg/clean5.jpg" class="w-full md:w-60 h-60 rounded-lg" alt="">
+
+          </div>
+        </div>
+        <h2 id="accordion-color-heading-2">
+          <button type="button"
+            class="flex items-center focus:outline-none justify-between w-full p-5 py-1 font-medium text-left text-gray-500 border border-b-0 border-gray-200 hover:bg-blue-100"
+            data-accordion-target="#accordion-color-body-2" aria-expanded="false"
+            aria-controls="accordion-color-body-2">
+            <span class="text-1xl md:text-2xl">خدماتنا في الشارقه :</span>
+            <svg data-accordion-icon class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </h2>
+        <div id="accordion-color-body-2" class="hidden" aria-labelledby="accordion-color-heading-2">
+          <div
+            class="flex flex-col md:flex-row justify-between  py-5  border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+            <p class="flex  mb-2 w-3/4 justify-center md:w-1/2  text-gray-500 dark:text-gray-400 mr-5 ">
+              تفريغ صناديق القمامة بانتظام
+              تنظيف الأرضيات والسجاد بانتظام
+              تنظيف المناطق الرطبة والرطبة بشكل مستمر
+              إغلاق الفتحات والشقوق حول النوافذ والأبواب
+              استخدام مبيدات الحشرات الآمنة
+            </p>
+            <img src="/svg/clean5.jpg" class="w-full md:w-60 h-60 rounded-lg" alt="">
+
+          </div>
+        </div>
+        <h2 id="accordion-color-heading-3">
+          <button type="button"
+            class="flex items-center focus:outline-none justify-between w-full p-5 py-1 font-medium text-left text-gray-500 border border-gray-200  hover:bg-blue-100 dark:hover:bg-gray-800"
+            data-accordion-target="#accordion-color-body-3" aria-expanded="false"
+            aria-controls="accordion-color-body-3">
+            <span class="text-1xl md:text-2xl">خدماتنا في عجمان :</span>
+            <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </h2>
+        <div id="accordion-color-body-3" class="hidden" aria-labelledby="accordion-color-heading-3">
+          <div
+            class="flex flex-col md:flex-row justify-between  py-5  border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+            <p class="flex  mb-2 w-3/4 justify-center md:w-1/2  text-gray-500 dark:text-gray-400 mr-5 ">
+              تفريغ صناديق القمامة بانتظام
+              تنظيف الأرضيات والسجاد بانتظام
+              تنظيف المناطق الرطبة والرطبة بشكل مستمر
+              إغلاق الفتحات والشقوق حول النوافذ والأبواب
+              استخدام مبيدات الحشرات الآمنة
+            </p>
+            <img src="/svg/clean5.jpg" class="w-full md:w-60 h-60 rounded-lg" alt="">
+
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    </div>
+  </section>
+
+  <section class="slide  bg-white border-b py-8">
+    <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+      <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+        اعمالنا
+      </h2>
+      <div class="relative w-full glide-02">
+        <div class="overflow-hidden" data-glide-el="track">
+          <ul
+            class="relative flex w-100 overflow-hidden p-0 whitespace-no-wrap flex flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform]">
+            <li><img src="/images/gil-ribeiro-3hO8igCybds-unsplash.jpg" class="w-screen md:w-1/2   m-auto" />
+            </li>
+            <li><img src="/images/gil-ribeiro-3hO8igCybds-unsplash.jpg" class="w-screen md:w-1/2   m-auto" />
+            </li>
+            <li><img src="/images/gil-ribeiro-3hO8igCybds-unsplash.jpg" class="w-screen md:w-1/2   m-auto" />
+            </li>
+            <li><img src="/images/gil-ribeiro-3hO8igCybds-unsplash.jpg" class="w-screen md:w-1/2   m-auto" />
+            </li>
+            <li><img src="/images/gil-ribeiro-3hO8igCybds-unsplash.jpg" class="w-screen md:w-1/2   m-auto" />
+            </li>
+          </ul>
+        </div>
+        <div class="absolute bottom-0 flex items-center justify-center w-full gap-2" data-glide-el="controls[nav]">
+          <button class="p-4 group" data-glide-dir="=0" aria-label="goto slide 1"><span
+              class="block w-2 h-2 transition-colors duration-300 rounded-full ring-1 ring-slate-700 bg-white/20 focus:outline-none"></span></button>
+          <button class="p-4 group" data-glide-dir="=1" aria-label="goto slide 2"><span
+              class="block w-2 h-2 transition-colors duration-300 rounded-full ring-1 ring-slate-700 bg-white/20 focus:outline-none"></span></button>
+          <button class="p-4 group" data-glide-dir="=2" aria-label="goto slide 3"><span
+              class="block w-2 h-2 transition-colors duration-300 rounded-full ring-1 ring-slate-700 bg-white/20 focus:outline-none"></span></button>
+          <button class="p-4 group" data-glide-dir="=3" aria-label="goto slide 4"><span
+              class="block w-2 h-2 transition-colors duration-300 rounded-full ring-1 ring-slate-700 bg-white/20 focus:outline-none"></span></button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <section class="container mx-auto text-center py-6 mb-12">
+    <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
+      تواصل معنا
+    </h2>
+    <div class="w-full mb-4">
+      <div class="h-1 mx-auto  w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
+    </div>
+    <h3 class="my-4 text-1xl md:text-3xl leading-tight">
+      لا تتردد في التواصل معنا في أي وقت، فنحن دائماً مستعدون لتقديم الدعم والمساعدة التي تحتاجها بأسرع وقت ممكن </h3>
+
+
+    <div
+      class="fixed hidden md:block left-20 bottom-10 animate-bounce mx-auto h-24  w-24 flex justify-center   bg-gradient-to-br from-red-400 to-green-600 items-center rounded-full shadow-2xl  cursor-pointer  transform hover:scale-x-110 hover:scale-y-105 transition duration-300 ease-out  ">
+      <a href="https://chatwith.io/s/shrk-ljwd"
+        class="text-center text-white font-semibold z-10 py-8 pointer-events flex justify-center  mb-20 items-center">
+
+        <span class=""> <img class=" h-10 w-20 " src="/svg/whatsapp-svgrepo-com.svg" alt="">
+
+
+    </div>
+
+    <!-- small screen -->
+    <div
+      class="b animate-bounce mx-auto visible md:invisible w-full   h-16  flex  justify-center  bg-gradient-to-br from-red-400 to-green-600 items-center rounded-full shadow-2xl  cursor-pointer absolute overflow-hidden transform hover:scale-x-110 hover:scale-y-105 transition duration-300 ease-out  ">
+      <a href="https://chatwith.io/s/mohamed-atef"
+        class="text-center text-white font-semibold z-10 py-8 pointer-events flex justify-between gap-5 items-center">
+        <span class=""> <img class="w-10 h-10" src="/svg/whatsapp-svgrepo-com.svg" alt="">
+        </span>WhatsApp</a>
+
+    </div>
+
+
+
+
+  </section>
+
+  <footer class="py-10 flex flex-col justify-center text-center ">
+    <span class="block text-sm text-sky-500 animate-pulse  sm:text-center dark:text-gray-400">© 2023 <a
+        href="https://www.behance.net/mohamedatef243" class="hover:underline text-dark-500  text-2xl">mohamed-atef</a>.
+    </span>
+    <span class="block text-sm text-sky-500 animate-pulse  sm:text-center dark:text-gray-400">
+      You Are
+      Deserve The
+      Best Design.
+
+    </span>
+    </div>
+  </footer>
+
+
+  <script>
+    var scrollpos = window.scrollY;
+    var header = document.getElementById("header");
+    var navcontent = document.getElementById("nav-content");
+    var navaction = document.getElementById("navAction");
+    var brandname = document.getElementById("brandname");
+    var toToggle = document.querySelectorAll(".toggleColour");
+
+    document.addEventListener("scroll", function () {
+      scrollpos = window.scrollY;
+
+
+
+      if (scrollpos > 10) {
+        header.classList.add("bg-white");
+        navaction.classList.remove("bg-white");
+        navaction.classList.add("gradient");
+        navaction.classList.remove("text-gray-800");
+        navaction.classList.add("text-white");
+        for (var i = 0; i < toToggle.length; i++) {
+          toToggle[i].classList.add("text-gray-800");
+          toToggle[i].classList.remove("text-white");
+        }
+        header.classList.add("shadow");
+        navcontent.classList.remove("bg-gray-100");
+        navcontent.classList.add("bg-white");
+      } else {
+        header.classList.remove("bg-white");
+        navaction.classList.remove("gradient");
+        navaction.classList.add("bg-white");
+        navaction.classList.remove("text-white");
+        navaction.classList.add("text-gray-800");
+        for (var i = 0; i < toToggle.length; i++) {
+          toToggle[i].classList.add("text-white");
+          toToggle[i].classList.remove("text-gray-800");
+        }
+
+        header.classList.remove("shadow");
+        navcontent.classList.remove("bg-white");
+        navcontent.classList.add("bg-gray-100");
+      }
+
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js">
+
+  </script>
+
+  <script>
+    var glide02 = new Glide('.glide-02', {
+      type: 'slider',
+      focusAt: 'center',
+      perView: 1,
+      autoplay: 3500,
+      animationDuration: 700,
+      gap: 0,
+      classes: {
+        activeNav: '[&>*]:bg-slate-700',
+      },
+
+    });
+
+    glide02.mount();
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.js"></script>
+
+
+</body>
+
+</html>
